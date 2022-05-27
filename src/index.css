@@ -1,0 +1,81 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.logo {
+  height: 55px;
+  margin: 16px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.logo img{
+width: '90%';
+height: 100px;
+}
+
+.logoA {
+  height: 55px;
+  margin: 16px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.logoA img{
+width: 100px;
+height: 55px;
+}
+
+.site-layout .site-layout-background {
+  background: #fff;
+}
+
+[data-theme="dark"] .site-layout .site-layout-background {
+  background: #141414;
+}
+
+#chart {
+  height: 320px;
+}
+
+#img {
+  -webkit-transition: all 1s ease; /* Safari and Chrome */
+  -moz-transition: all 1s ease; /* Firefox */
+  -ms-transition: all 1s ease; /* IE 9 */
+  -o-transition: all 1s ease; /* Opera */
+  transition: all 1s ease;
+}
+
+#img:hover {
+  -webkit-transform:scale(2.25); /* Safari and Chrome */
+  -moz-transform:scale(2.25); /* Firefox */
+  -ms-transform:scale(2.25); /* IE 9 */
+  -o-transform:scale(2.25); /* Opera */
+   transform:scale(2.25);
+}
+
+input[type="file"] {
+  display: none;
+}
+.labelInput {
+  padding: 20px 10px;
+  width: 200px;
+  height: 70;
+  background-color: #33206E;
+  color: #FFF;
+  text-transform: uppercase;
+  text-align: center;
+  display: block;
+  margin-top: 10px;
+  cursor: pointer;
+}
